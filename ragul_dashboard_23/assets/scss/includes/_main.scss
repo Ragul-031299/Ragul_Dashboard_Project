@@ -1,0 +1,18 @@
+.container-fluid{
+    .row{
+        .maincontent{
+            background-color: $color-light;
+            
+            .topmargin{
+                .cardrow{
+                    .cardbg{
+                        background-color: $color-red;
+                    }
+                }
+            }
+        }
+        .calendar{
+            background-color: $color-toggler;
+        }
+    }
+}

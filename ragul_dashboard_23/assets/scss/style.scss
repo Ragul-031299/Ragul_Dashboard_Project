@@ -1,0 +1,27 @@
+@import './abstracts/variables';
+@import './mixins/breakpoints';
+@import './abstracts/common';
+@import './includes/button';
+@import './includes/footer';
+@import './includes/header';
+@import './includes/main';
+
+.upcoming li{
+    font-size: 0.7rem;
+    font-weight: 600;
+    @include media-max-sm {
+        font-size: 12px;
+    }
+}
+.card {
+    border-radius: 10px;
+}
+p{
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 0.9rem;
+}
+.num{
+    font-size: 1.2rem;
+}

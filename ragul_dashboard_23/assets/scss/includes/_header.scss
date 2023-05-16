@@ -1,0 +1,16 @@
+.container-fluid{
+    .row{
+        .sidebars{
+            .navbar-nav{
+                .icon{
+                    color: $color-green;
+                    &:hover{
+                        background-color: $color-red;
+                        padding: 10px;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
